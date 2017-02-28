@@ -1,0 +1,26 @@
+<h1>Users</h1>
+<table>
+  <thead>
+    <thead>
+      <tr>
+        <th>Email</th><th>Role</th>
+      </tr>
+    </thead>
+  </thead>
+  <tbody>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.email %></td>
+      <td><%= user.roles.first.name %></td>
+      <td>
+        <%= form_tag("/admin/" + user.id.to_s + "?role=admin", method: :put) do %>
+          <input type="submit" value="Make Admin"/>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+<%= link_to 'Home', '/' %>

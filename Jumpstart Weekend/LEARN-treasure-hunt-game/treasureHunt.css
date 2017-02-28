@@ -1,0 +1,35 @@
+h1 {
+  color: green;
+}
+table{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3b/World_Map_1689.JPG");
+/*background-height: 750px;*/
+background-size: 750px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  font-size: 100px;
+  width:800px;
+}
+td{
+
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  height: 250px;
+  width: 250px;
+}
+
+button {
+  height: 250px;
+  width: 250px;
+  font-size: 125px;
+  background-color: transparent;
+  border-style: none;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}

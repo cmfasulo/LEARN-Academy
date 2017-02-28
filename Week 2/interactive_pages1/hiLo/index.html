@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Hi/Lo Game</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <h1>Hi/Lo Game</h1>
+    <p><input type="button" value="Start New Game!" onClick="someObj.randomNum()"/></p>
+    <input id="guess" type="text" value="Guess Number!" onfocus="this.value=''"/>
+    <input type="button" value="Check" onClick="someObj.game()"/>
+    <h2 id="feedback">Start Guessing Above!</h2>
+    <p><h2>Guesses Left: <span id="guessesLeft"></span></h2></p>
+    <p id="currentRand">"Current Random Number"<p>
+  </body>
+</html>

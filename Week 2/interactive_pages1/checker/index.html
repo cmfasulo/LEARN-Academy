@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Username and Password</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+      <input id="user-text" type="text" value="Input Username" onfocus="this.value=''"></input>
+      <input id="pass-text" type="text" value="Input Password" onfocus="this.value=''"></input>
+      <input type="button" value="Submit" onClick="submit()"></input>
+      <p id="notSame">User ID and password cannot be the same</p>
+      <p id="length">User ID and password have to be at least six characters long</p>
+      <p id="chars">User ID cannot contain the following characters: !#$, Password has to contain at least one of: !#$</p>
+      <p id="passNotSame">Password cannot be "password"</p>
+      <p id="digit">Password has to contain at least one digit"</p>
+      <p id="case">Password has to contain a lower and an uppercase letter</p>
+      <p id="all-true"></p>
+
+  </body>
+</html>

@@ -1,0 +1,135 @@
+body {
+  background-color: #91b3cc;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  /*background-image: url(https://c1.staticflickr.com/5/4110/5200218267_c1f27410bd_b.jpg);*/
+}
+
+header {
+  font-weight: bolder;
+}
+
+nav {
+  text-align: center;
+  font-size: 20px;
+}
+
+nav a {
+  color: #cb390b;
+}
+nav a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+h2 {
+  color: #cb390b;
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+img {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius: 10px;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+li {
+  font-style: italic;
+}
+
+p {
+  height:auto;
+}
+
+p:hover {
+  color: gray;
+}
+
+table {
+  width: 100%;
+  border-color: black;
+  border-width: medium;
+  border-style: solid;
+  margin-top: 50%;
+  margin-bottom: auto;
+}
+
+tr {
+  font-variant: small-caps;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
+
+th {
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  width: 200px;
+}
+
+caption {
+  color: red;
+  font-style: italic;
+  font-size: 16px;
+  caption-side: bottom;
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+}
+
+button {
+  color: purple;
+}
+
+.img-height {
+  height: 200px;
+}
+
+.img-small {
+  height: 100px;
+}
+
+.img-carousel {
+  min-height: 200px;
+  max-height: 200px;
+  float: none;
+}
+
+.jumbotron h1 {
+  color: #3E7A39;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  font-size: 100px;
+}
+
+#coronado-height {
+  float: none;
+  height: 400px;
+  margin-top: 20%;
+}
+
+#mycarousel {
+  margin-top: 10px;
+}
+
+#backtotop {
+  margin-top: 10px;
+}

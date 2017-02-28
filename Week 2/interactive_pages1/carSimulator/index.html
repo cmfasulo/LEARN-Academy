@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Car Simulator</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <h1>Make Car Go!</h1>
+    <input type="text" id="year" value="year" onfocus="this.value=''" />
+    <input type="text" id="make" value="make" onfocus="this.value=''" />
+    <input type="text" id="model" value="model" onfocus="this.value=''" />
+    <input type="button" onClick="submit()" value="Submit" />
+    <div>
+      <h2>Year: <span id="carYear"></span></h2>
+      <h2>Make: <span id="carMake"></span></h2>
+      <h2>Model: <span id="carModel"></span></h2>
+    </div>
+
+    <div>
+      <input type="button" onClick="createCar.accelerate()" value="Accelerate" />
+      <input type="button" onClick="createCar.brake()" value="Decelerate" />
+    </div>
+    <div>
+      <h2>Current Speed: <span id="carSpeed">0</span></h2>
+    </div>
+  </body>
+</html>
